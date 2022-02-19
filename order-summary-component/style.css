@@ -21,7 +21,7 @@ body {
     height: 70%;
     padding:3rem;
     background-color: rgb(253, 251, 251);
-    border-radius: 5%;
+    border-radius: 16px;
 }
 
 .summary_component__img {
@@ -44,7 +44,7 @@ body {
 .change-order-box {
     background-color: aquamarine;
     padding: 1rem;
-    border-radius: 5%;
+    border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -77,7 +77,7 @@ body {
 
 .button--proceed {
     padding: 1rem;
-    border-radius: 5%;
+    border-radius: 8px;
     border: none;
     color: white;
     background-color: blue;
