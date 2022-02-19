@@ -1,5 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
 }
 
 .section-background {
@@ -69,19 +70,22 @@ body {
 }
 
 .button {
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 5%;
+    margin: 1rem auto 1rem auto;
+    display: block;
     text-align: center;
 }
 
 .button--proceed {
+    padding: 1rem;
+    border-radius: 5%;
+    border: none;
     color: white;
     background-color: blue;
     box-shadow: 0 5px 5px rgb(12, 12, 12, 0.5);
 }
 
 .button--cancel {
+    text-decoration: none;
     background-color: white;
     color: gray;
     font-weight: bold;
