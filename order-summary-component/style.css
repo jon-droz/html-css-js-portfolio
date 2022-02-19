@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-background {
+    background-color: rgb(197, 231, 231);
+    height: 100vh;
+    
+}
+
+.section-display-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.summary-component {
+    width: 30%;
+    height: 70%;
+    padding:3rem;
+    background-color: rgb(253, 251, 251);
+    border-radius: 5%;
+}
+
+.summary_component__img {
+    max-width: 100%;
+    background-color: red;
+}
+
+.summary-component__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
+}
+
+.summary-component__text {
+    margin: 1rem;
+    text-align: center;
+}
+
+.change-order-box {
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.change-order__icon {
+    background-color: aliceblue;
+    padding: 1rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.change-order__link {
+    font-weight: bold;
+}
+
+.button {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.button--proceed {
+    color: white;
+    background-color: blue;
+    box-shadow: 0 5px 5px rgb(12, 12, 12, 0.5);
+}
+
+.button--cancel {
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+}
+
