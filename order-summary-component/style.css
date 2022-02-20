@@ -29,19 +29,23 @@ body {
     align-items: center;
 }
 
-.summary-component {
+.card {
     width: 30%;
     max-width: 400px;
     min-width: 300px;
     height: 80%;
     background-color: white;
     border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
-.summary_component__img {
+.summary-component {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+}
+
+.card__img {
     width: 100%;
     border-radius: 16px 16px 0 0;
 }
@@ -49,18 +53,18 @@ body {
 .summary-component__title {
     font-size: 1.5rem;
     font-weight: 900;
-    margin: 1rem;
+    
     text-align: center;
 }
 
 .summary-component__text {
-    margin: 1rem;
+    
     text-align: center;
 }
 
 .change-order-box {
     background-color:var(--secondary-bg-color);
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 1rem 0;
     padding: 1rem;
     border-radius: 4px;
     display: flex;
@@ -93,6 +97,7 @@ body {
 
 .button {
     margin: auto;
+    margin-top: 1rem;
     display: block;
     text-align: center;
     cursor: pointer;
@@ -100,6 +105,7 @@ body {
 
 .button--proceed {
     padding: 1rem;
+    width: 100%;
     border-radius: 8px;
     border: none;
     color: var(--primary-bg-color);
