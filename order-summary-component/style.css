@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
 :root {
     --primary-bg-color:  hsl(225, 100%, 94%);
     --secondary-bg-color: hsl(225, 100%, 98%);
@@ -5,8 +7,9 @@
     --primary-accent-color: hsl(245, 75%, 52%);
     --secondary-accent-color: hsl(224, 23%, 55%);
 }
+
 body {
-    font-family: ;
+    font-family: 'Red Hat Display', sans-serif;;
     font-size: 16px;
     color: var(--main-font-color);
 }
@@ -24,20 +27,24 @@ body {
 
 .summary-component {
     width: 30%;
-    height: 70%;
+    max-width: 400px;
+    min-width: 300px;
+    height: 80%;
     background-color: var(--secondary-bg-color);
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .summary_component__img {
     width: 100%;
     border-radius: 16px 16px 0 0;
-   
 }
 
 .summary-component__title {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 900;
     margin: 1rem;
     text-align: center;
 }
@@ -81,9 +88,10 @@ body {
 }
 
 .button {
-    margin: 1rem auto 1rem auto;
+    margin: auto;
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 .button--proceed {
@@ -92,14 +100,15 @@ body {
     border: none;
     color: var(--primary-bg-color);
     background-color: var(--primary-accent-color);
-    box-shadow: 0 5px 5px var(--secondary-accent-color);
+    box-shadow: 0 10px 10px var(--secondary-accent-color);
     font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .button--cancel {
-    text-decoration: none;
+    border: none;
     background-color: var(--secondary-bg-color);
-    color: var(--main-font-color);
+    color: var(--secondary-accent-color);
     font-weight: bold;
 }
 
