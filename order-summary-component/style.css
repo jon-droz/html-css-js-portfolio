@@ -1,10 +1,18 @@
+:root {
+    --primary-bg-color:  hsl(225, 100%, 94%);
+    --secondary-bg-color: hsl(225, 100%, 98%);
+    --main-font-color: hsl(223, 47%, 23%);
+    --primary-accent-color: hsl(245, 75%, 52%);
+    --secondary-accent-color: hsl(224, 23%, 55%);
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
+    color: var(--main-font-color);
 }
 
 .section-background {
-    background-color: rgb(197, 231, 231);
+    background-color: var(--primary-bg-color);
     height: 100vh;
     
 }
@@ -20,13 +28,13 @@ body {
     width: 30%;
     height: 70%;
     padding:3rem;
-    background-color: rgb(253, 251, 251);
+    background-color: var(--secondary-bg-color);
     border-radius: 16px;
 }
 
 .summary_component__img {
     max-width: 100%;
-    background-color: red;
+   
 }
 
 .summary-component__title {
@@ -42,7 +50,7 @@ body {
 }
 
 .change-order-box {
-    background-color: aquamarine;
+    background-color:var(--primary-bg-color);
     margin: 2rem 0 2rem 0;
     padding: 1rem;
     border-radius: 4px;
@@ -57,7 +65,7 @@ body {
 }
 
 .offer__icon {
-    background-color: aliceblue;
+    background-color: var(--secondary-bg-color);
     margin-right: 1rem;
     padding: 1rem;
     width: 10px;
@@ -66,7 +74,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blue;
+    color: var(--primary-accent-color);
     font-size: 1.5rem;
 }
 
@@ -84,16 +92,16 @@ body {
     padding: 1rem;
     border-radius: 8px;
     border: none;
-    color: white;
-    background-color: blue;
-    box-shadow: 0 5px 5px rgb(12, 12, 12, 0.5);
+    color: var(--primary-bg-color);
+    background-color: var(--primary-accent-color);
+    box-shadow: 0 5px 5px var(--secondary-accent-color);
     font-family:'Courier New', Courier, monospace;
 }
 
 .button--cancel {
     text-decoration: none;
-    background-color: white;
-    color: gray;
+    background-color: var(--secondary-bg-color);
+    color: var(--main-font-color);
     font-weight: bold;
 }
 
