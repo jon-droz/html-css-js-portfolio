@@ -20,6 +20,10 @@ body {
 
 .section-background {
     background-color: var(--primary-bg-color);
+    background-image: url(../order-summary-component/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: contain;
     height: 100vh;
 }
 
@@ -78,7 +82,7 @@ body {
 }
 
 .offer__icon {
-    background-color: var(--secondary-bg-color);
+    background-color: white;
     margin-right: 1rem;
     padding: 1rem;
     width: 10px;
@@ -116,7 +120,7 @@ body {
 
 .button--cancel {
     border: none;
-    background-color: var(--secondary-bg-color);
+    background-color: white;
     color: var(--secondary-accent-color);
     font-weight: 700;
 }
