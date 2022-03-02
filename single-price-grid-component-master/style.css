@@ -74,32 +74,34 @@ body {
     background-color: var(--cyan);
     color: #ffffff;
 }
-.offer__title {
+.box-title {
     grid-column-start: 1;
     grid-column-end: 3;
 }
-.offer__price {
+.box-price {
     grid-column-start: 1;
     grid-column-end: 2;
     font-size: 2rem;
 }
 
-.offer__period {
+.box-period {
     grid-column-start: 2;
     grid-column-end: 3;
 }
-.offer__description {
+.box-description {
     grid-column-start: 1;
     grid-column-end: 3;
 }
-.offer--btn {
+.box-btn {
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
 .btn {
+    margin: 0.5rem;
     background-color: var(--bright-yellow);
     border-radius: 4px;
+    border: 1px solid var(--cyan-light);
     box-shadow:  0 5px 10px rgba(21, 97, 97, 0.24);
     text-align: center;
     padding: 0.7rem;
@@ -116,6 +118,7 @@ body {
     background-color: var(--cyan-light);
     color: var(--light-gray);
 }
+
 .side-text__list {
     list-style-type: none;
     margin: 0;

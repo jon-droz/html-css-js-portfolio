@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
@@ -12,26 +12,26 @@
 <body>
   <main>
     <section class="background display-centered">
-      <div class="card">
-        <div class="upper-text">
-          <h1 class="upper-text__title">Join our community</h1>
-          <h2 class="upper-text__subtitle">30-day, hassle-free money back guarantee</h2>
-          <p class="upper-text__text">Gain access to our full library of tutorials along with expert code reviews. 
+      <div class="card card-layout">
+        <div class="upper-box main-text card-box">
+          <h1 class="main-text__title">Join our community</h1>
+          <h2 class="main-text__subtitle">30-day, hassle-free money back guarantee</h2>
+          <p class="main-text__text">Gain access to our full library of tutorials along with expert code reviews. 
             Perfect for any developers who are serious about honing their skills.
           </p>
         </div>
 
-        <div class="offer">
-          <h2 class="offer__title">Monthly Subscription</h2>
-          <div class="offer__price">&dollar;29</div> 
-          <p class="offer__period">per month</p>
-          <p class="offer__description">Full access for less than &dollar;1 a day</p>
-          <a href="#" class="btn">Sign Up</a>
+        <div class="bottom-box-left offer card-box">
+          <h2 class="box-title offer__title">Monthly Subscription</h2>
+          <div class="box-price offer__price">&dollar;29</div> 
+          <p class="box-period offer__period">per month</p>
+          <p class="box-description offer__description">Full access for less than &dollar;1 a day</p>
+          <a href="#" class="btn box-btn">Sign Up</a>
         </div>
 
-        <div class="bottom-text">
+        <div class="bottom-box-right side-text card-box">
           <h2>Why Us</h2>
-          <ul> 
+          <ul class="side-text__list"> 
             <li>Tutorials by industry experts</li>
             <li>Peer &amp; expert code review</li>
             <li>Coding exercises</li>
