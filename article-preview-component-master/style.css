@@ -34,12 +34,14 @@ main {
 .component {
   background-color: #ffffff;
   width:70%;
-  height: 50%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .component-layout {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
+    grid-auto-rows:min-content;
 }
 
 .box-left {
@@ -47,6 +49,11 @@ main {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+.component-image {
+    width: 100%;
+    border-top-left-radius: 8px;
 }
 
 .box-right {
