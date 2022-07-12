@@ -11,13 +11,15 @@ This is one of my first projects done as part of the Frontend Mentor challenges.
 - accurate reproduction of the design
 - hover states for interactive elements
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ## Built with
 
 - HTML5
 - CSS 
 - Flexbox
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+
 
