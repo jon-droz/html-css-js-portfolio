@@ -129,14 +129,13 @@ main {
 }
 
 .box-share {
-  /* display: none; */
+  display: none;
   z-index: 1;
   width: 200px;
   background-color: var(--very-dark-grayish-blue);
   color: var(--grayish-blue);
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding:0.5rem 2rem;
