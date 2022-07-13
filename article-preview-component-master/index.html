@@ -35,13 +35,13 @@
           <img class="author__avatar avatar" src="./images/avatar-michelle.jpg">
           <p class="author__name">Michelle Appleton</p>
           <p class="author__date">28 Jun 2020</p>
-          <div class="share-icon author__share">
+          <div id = "share-icon" class="share-icon author__share" onclick="showPopup()">
            <img src="images/icon-share.svg">
           </div>
         </div>
       </div>
 
-      <div class="box-share share">
+      <div id="box-share" class="box-share share">
         <p class="share text">Share</p>
         <img class="social-icon" src="images/icon-facebook.svg">
         <img class="social-icon" src="images/icon-twitter.svg">
@@ -55,5 +55,11 @@
     Coded by <a href="#">jon-droz</a>.
     </p>
   </footer>
+  <script>
+    function showPopup() {
+      document.getElementById('share-icon').style.background = "var(--grayish-blue)";
+      document.getElementById('box-share').style.display = "flex";
+    }
+  </script>
 </body>
 </html>
