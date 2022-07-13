@@ -26,17 +26,18 @@ main {
 }
 
 .component-centered {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute; 
 }
 
 .component {
   background-color: #ffffff;
-  width: 70%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
+  z-index: 0;
 }
 
 .component-layout {
@@ -61,13 +62,14 @@ main {
 .box-right {
   grid-column-start: 2;
   grid-column-end: 3;
+  position: relative;
 }
 
 .component-text {
     padding: 1.5rem;
 }
 
-.text__title {
+.text__tle {
     margin-top: 0;
     color: var(--very-dark-grayish-blue);
 }
@@ -127,7 +129,9 @@ main {
 }
 
 .box-share {
-  /*  display: none; */
+  /* display: none; */
+  z-index: 1;
+  width: 200px;
   background-color: var(--very-dark-grayish-blue);
   color: var(--grayish-blue);
   text-transform: uppercase;
@@ -137,7 +141,10 @@ main {
   justify-content: space-between;
   padding:0.5rem 2rem;
   border-radius: 8px;
-  position:relative;
+  transform: translate(0%, -250%);
+  position: absolute;
+  right: -90px;
+  top:auto ;  
 }
 
 .box-share:after {
@@ -147,13 +154,12 @@ main {
   position:absolute;
   left: 50%;
   top: 100%;
+  margin-top: -1px;
   margin-left: -10px;
   border-top: 10px solid var(--very-dark-grayish-blue);
   border-left: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-right: 10px solid transparent;
-  
-  
 }
 
 .social-icon {
@@ -162,4 +168,3 @@ main {
     padding: 0.5rem;
     margin-left:0.5rem;
 }
-
