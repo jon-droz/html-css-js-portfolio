@@ -111,11 +111,12 @@ main {
   grid-column-end: 4;
   margin: 0;
 }
+
 .author__share {
     grid-column-start: 4;  
     grid-column-end: 5;
     grid-row-start: 1;
-  grid-row-end: 3;
+    grid-row-end: 3;
   }
 
 .share-icon {
@@ -126,6 +127,22 @@ main {
 }
 
 .box-share {
-    display: none;
+  /*  display: none; */
+  background-color: var(--very-dark-grayish-blue);
+  color: var(--grayish-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0.5rem 2rem;
+  border-radius: 8px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+    margin-left:0.5rem;
 }
 
