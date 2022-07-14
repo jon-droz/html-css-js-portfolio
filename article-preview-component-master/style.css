@@ -180,8 +180,8 @@ main {
 
   .component-layout {
     display: grid;
-    grid-template-rows: 1fr 1.5fr 0.5fr;
-    grid-template-columns: minmax(250px, auto);
+    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-template-columns: minmax(400px, auto);
   }
   .box-left {
     grid-row: 1;
@@ -196,4 +196,11 @@ main {
     grid-template-columns: repeat(1, 1fr 2fr 1fr);
     margin-bottom: 2rem;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .component-layout {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 0.5fr;
+    grid-template-columns: minmax(250px, auto);
 }
