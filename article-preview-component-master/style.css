@@ -166,6 +166,17 @@ main {
   border-right: 10px solid transparent;
 }
 
+.share-icon__hidden {
+  display:none;
+  background-color: var(--grayish-blue);
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+}
+
 .social-icon {
     width: 20px;
     height: 20px;
@@ -210,6 +221,9 @@ main {
 
   .box-share:after {
     border-top: 10px solid transparent;
+  }
+  .share-icon__hidden {
+    display: flex;
   }
 }
 
